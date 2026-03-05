@@ -87,3 +87,30 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+
+@media (max-width:768px){
+
+.menu{
+display:none;
+flex-direction:column;
+width:100%;
+margin-top:10px;
+}
+
+.menu li{
+margin:10px 0;
+}
+
+.menu-icon{
+display:block;
+}
+
+#menu-toggle:checked + .menu-icon + nav .menu{
+display:flex;
+}
+
+.productos-grid{
+flex-direction:column;
+}
+
+}
